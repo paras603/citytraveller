@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #003135;
+}
+
+.herosection img {
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    z-index: -20;
+}
+
+.heroLocation label {
+    color: #fff;
+}
+
+.contactSection {
+    padding: 1rem;
+}
+
+.aboutDescription {
+    text-align: justify;
+}
+
+.contactSection h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.horizontalLine {
+    background: #003135;
+    margin-top: 1rem;
+    height: 4px;
+    border: none;
+}
+
+.contactForm {
+    border: 2px solid #003135;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.contactForm input {
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    outline: none;
+    height: 1.5rem;
+}
+
+.contactForm button {
+    border: 2px solid #003135;
+    color: #003135;
+    background: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 5px;
+}
+.contactForm button:hover {
+    border: 2px solid #003135;
+    color: #fff;
+    background: #003135;
+}
+
+.buttonParent {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
