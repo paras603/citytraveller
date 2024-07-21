@@ -1,3 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #cfe7e5;
+    color: #213638;
+    padding: 15px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerNavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .menu-icon {
     cursor: pointer;
     font-size: 24px;
@@ -46,4 +68,35 @@ footer {
     justify-content: center;
     top: 96%;
     position: absolute;
+}
+
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .menu-toggle:checked + .menu-icon + .nav {
+        display: flex;
+    }
+}
+
+@media (min-width: 769px) {
+    .menu-icon {
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+        position: static;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .nav ul {
+        flex-direction: row;
+    }
+
+    .nav ul li {
+        margin: 0 10px;
+    }
 }
