@@ -65,7 +65,11 @@ footer {
     width: 100%;
     justify-content: center;
     top: 95.2%;
-    position: sticky;
+    position: fixed;
+}
+
+.cityTraveller {
+    width: 7rem;
 }
 
 @media (max-width: 768px) {
@@ -82,7 +86,6 @@ footer {
     .menu-icon {
         display: none;
     }
-
     .nav {
         display: flex;
         position: static;
