@@ -43,7 +43,7 @@
     text-transform: uppercase;
 }
 
-.hero .line {
+.line {
     display: flex;
     align-items: center;
     margin: 15px 0;
@@ -140,4 +140,133 @@ footer {
     .hero-overlay {
         width: calc(100% - 20px); /* Adjusted for smaller screens */
     }
+}
+
+
+/* packages */
+.popular-packages {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.popular-packages h2 {
+    font-weight: 400;
+    color: #515151;
+    font-size: 25px;
+    line-height: 38px;
+    margin: 0;
+}
+
+.popular-packages p {
+    color: #8e8e8e;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    margin: 0 0 20px 0;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    position: relative; /* Make sure card is the positioning context */
+    width: 340px;
+    height: 500px; /* Adjust the height as needed */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the card */
+}
+
+.card-details {
+    position: absolute; /* Positioning over the image */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: left;
+    color: white;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    box-sizing: border-box; /* Include padding in width and height */
+    background: linear-gradient(to bottom, rgb(0 0 0 / 2%) 1%, rgb(14 13 13 / 79%) 100%)
+}
+
+.card-details h3 {
+    display: flex;
+    align-items: center;
+    line-height: 23px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.card-details p {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    width: max-content;
+    margin: 0;
+}
+
+.card-details .duration{
+    display: flex;
+    width: 100%;
+    background: linear-gradient(180deg, hsl(0deg 81.68% 4.16% / 28%), hsl(0deg 0% 100% / 0%));
+    position: relative;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.card-details .card-line{
+        display: flex;
+        align-items: center;
+        margin: 8px 0;
+        min-height: 1px;
+        background: linear-gradient(270deg, hsla(0, 0%, 100%, .05) -.13%, hsla(0, 0%, 88%, .05) 0, #fff 49.17%, hsla(0, 0%, 88%, .05));
+}
+
+.card-details .price{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    margin-right: 5px;
+}
+
+.card .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+    display: block; /* Ensure button is displayed as block for proper alignment */
+}
+
+.card .btn:hover {
+    background-color: #e68a00;
+}
+
+.card .btn:focus {
+    outline: 2px solid #ff9900;
+    outline-offset: 2px;
 }
