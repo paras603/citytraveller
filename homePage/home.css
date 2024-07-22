@@ -14,3 +14,91 @@ body {
 .heroLocation label {
     color: #fff;
 }
+
+.descoverTitle {
+    margin: 0;
+}
+
+.heroMobileContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Edu AU VIC WA NT Hand";
+    color: #fff;
+    font-weight: 600;
+    font-size: 2rem;
+    padding-top: 10rem;
+    align-items: center;
+}
+
+.contactlink {
+    text-decoration: none;
+    background-color: #024950;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+.contactButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+    font-family: "Edu AU VIC WA NT Hand";
+}
+
+.contactlink:hover {
+    background: none;
+    border: 3px solid #fff;
+    color: #fff;
+    font-weight: 600;
+}
+
+.firstHighlight {
+    margin-bottom: 1rem;
+}
+
+.firstHighlight p {
+    text-align: center;
+    background-color: aliceblue;
+    width: 100%;
+    font-weight: bold;
+    margin-top: 0rem;
+    font-family: "Edu AU VIC WA NT Hand";
+}
+
+.seasonHeading {
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-family: "Great Vibes", cursive;
+}
+
+.packageHeading {
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-family: "Edu AU VIC WA NT Hand";
+}
+
+.seasonContent {
+    margin-top: 3rem;
+    padding: 1rem;
+}
+
+.packageContent {
+    padding: 1rem;
+    padding-top: 0rem;
+}
+
+.seasonHighlight img {
+    height: 250px;
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.seasonHighlight img:hover {
+    transform: scale(0.9);
+}
