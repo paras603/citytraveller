@@ -4,11 +4,15 @@ body {
     padding: 0;
 }
 
-.herosection img {
+.mobileBackground {
     height: 500px;
     width: 100%;
     position: absolute;
     z-index: -20;
+}
+
+.desktopBackground {
+    display: none;
 }
 
 .heroLocation label {
@@ -101,4 +105,42 @@ body {
 
 .seasonHighlight img:hover {
     transform: scale(0.9);
+}
+
+.secondHighlight {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .secondHighlight {
+        display: block;
+    }
+
+    .seasonHighlight img {
+        height: 300px;
+        width: 100%;
+        transition: transform 0.3s ease;
+    }
+
+    .seasonHighlight {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .firstHighlight {
+        width: 32%;
+        margin-left: 1rem;
+    }
+
+    .desktopBackground {
+        display: block;
+        height: 500px;
+        width: 100%;
+        position: absolute;
+        z-index: -20;
+    }
+
+    .mobileBackground {
+        display: none;
+    }
 }
