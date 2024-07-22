@@ -5,10 +5,11 @@ body {
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    background-color: #afdde5;
 }
 
 header {
-    background-color: #333;
+    background-color: #003135;
     color: white;
     padding: 10px 20px;
     display: flex;
@@ -33,7 +34,7 @@ header {
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: rgba(51, 51, 51, 0.9);
+    background-color: #003135d8;
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.3s ease-out;
@@ -64,6 +65,7 @@ header {
     max-height: 300px; /* Adjust this value as needed to fit your menu items */
 }
 
+/* hero section */
 .hero {
     position: relative;
     height: auto;
@@ -102,7 +104,7 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #0fa4af7c;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -129,9 +131,9 @@ header {
     font-size: 16px;
 }
 
+/* seasonal highlight */
 .seasonal-highlight {
     padding: 20px;
-    background-color: #f4f4f4;
 }
 
 .seasonal-highlight h2 {
@@ -175,7 +177,7 @@ header {
 }
 
 footer {
-    background-color: #333;
+    background-color: #003135;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -273,26 +275,23 @@ footer {
 /* How It Works Section */
 .how-it-works {
     padding: 40px 20px;
-    background-color: #f9f9f9;
 }
 
 .how-it-works h2 {
     font-size: 28px;
     margin-bottom: 20px;
-    text-align: left;
+    text-align: center;
 }
 
 .steps {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    align-items: center; /* Align items to the left */
+    align-items: center; 
 }
 
 .step {
-    /* background-color: white; */
     border-radius: 10px;
-    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
     padding: 20px;
     max-width: 300px;
 }
@@ -309,7 +308,7 @@ footer {
 .step h3 {
     font-size: 20px;
     margin-bottom: 10px;
-    text-align: left; /* Align heading text to the left */
+    text-align: left; 
 }
 
 .step p {
@@ -334,8 +333,8 @@ footer {
 /* Best of Nepal Section */
 .best-of-nepal {
     padding: 40px 20px;
-    background-color: #f4f4f4;
     text-align: center;
+    margin-bottom: 80px;
 }
 
 .best-of-nepal h2 {

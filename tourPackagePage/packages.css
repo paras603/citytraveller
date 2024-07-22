@@ -5,10 +5,15 @@ body {
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    background-color: #afdde5;
+}
+
+section {
+    background-color: #afdde5;
 }
 
 header {
-    background-color: #333;
+    background-color: #003135;
     color: white;
     padding: 10px 20px;
     display: flex;
@@ -33,7 +38,7 @@ header {
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: rgba(51, 51, 51, 0.9);
+    background-color: #003135da;
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.3s ease-out;
@@ -184,7 +189,7 @@ header {
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #333;
+    background-color: #003135;
     color: white;
     position: relative;
     bottom: 0;
@@ -213,7 +218,6 @@ footer {
 /* packages */
 .popular-packages {
     padding: 50px 20px;
-    background-color: #f9f9f9;
     text-align: center;
 }
 
@@ -338,7 +342,7 @@ footer {
     outline-offset: 2px;
 }
 
-/* section .section */
+/* section divider */
 .section-divider{
     display: flex;
     align-items: center;
@@ -350,7 +354,6 @@ footer {
 /* more nepal packages section */
 .more-nepal-packages {
     padding: 50px 20px;
-    background-color: #f9f9f9;
     text-align: center;
 }
 
@@ -384,7 +387,6 @@ footer {
     /* border-radius: 10px; */
     overflow: hidden;
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
-    background: #ffffff; /* Background color for card */
 }
 
 .more-package-card-image {
