@@ -1,3 +1,70 @@
+/* Mobile-first styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1000;
+}
+
+.menu-icon {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(51, 51, 51, 0.9);
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-out;
+    z-index: 1000;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav ul li {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.menu-toggle:checked + .menu-icon + .nav {
+    max-height: 300px; /* Adjust this value as needed to fit your menu items */
+}
+
+/* hero section */
 .hero {
     position: relative;
     height: 100vh;
@@ -270,3 +337,154 @@ footer {
     outline: 2px solid #ff9900;
     outline-offset: 2px;
 }
+
+/* section .section */
+.section-divider{
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    min-height: 1px;
+    background: linear-gradient(270deg, hsla(0, 0%, 100%, .05) -.13%, hsla(0, 0%, 88%, .05) 0, #aeaaaa 49.17%, hsla(0, 0%, 88%, .05));
+}
+
+/* more nepal packages section */
+.more-nepal-packages {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.more-nepal-packages h2 {
+    font-weight: 400;
+    color: #515151;
+    font-size: 25px;
+    line-height: 38px;
+    margin: 0;
+}
+
+.more-nepal-packages p {
+    color: #8e8e8e;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    margin: 0 0 20px 0;
+}
+
+.more-package-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.more-package-card {
+    position: relative; /* Make sure card is the positioning context */
+    width: 340px;
+    height: 400px; /* Adjust the height as needed */
+    /* border-radius: 10px; */
+    overflow: hidden;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+    background: #ffffff; /* Background color for card */
+}
+
+.more-package-card-image {
+    width: 100%;
+    /* height: 50%; */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.more-package-card-details {
+    position: absolute; /* Positioning over the image */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    padding: 20px 20px 20px 0px;
+    /* background: rgba(0, 0, 0, 0.6); Semi-transparent background */
+}
+
+.more-package-card-details h3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    margin: 0;
+}
+
+.more-package-card-details p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+    margin: 0;
+}
+
+.more-package-card-details .duration {
+    /* background: linear-gradient(180deg, hsl(0deg 81.68% 4.16% / 28%), hsl(0deg 0% 100% / 0%)); */
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.more-package-card-details .card-line {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    min-height: 1px;
+    background: linear-gradient(270deg, hsla(0, 0%, 100%, .05) -.13%, hsla(0, 0%, 88%, .05) 0, #fff 49.17%, hsla(0, 0%, 88%, .05));
+}
+
+.more-package-card-details .price {
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.more-package-card .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #e68a00;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.more-package-card .btn:hover {
+    background-color: #e68a00;
+}
+
+.more-package-card .btn:focus {
+    outline: 2px solid #ff9900;
+    outline-offset: 2px;
+}
+
+
+/* Tablet styles */
+@media (min-width: 768px) {
+    .nav {
+        position: static;
+        max-height: none;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+
+    .nav ul {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .nav ul li {
+        margin: 0 15px;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+}
+
