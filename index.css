@@ -30,6 +30,22 @@ header {
     display: none;
 }
 
+header {
+    background-color: #024950;
+    color: #fff;
+    padding: 15px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerNavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .nav {
     display: none;
     flex-direction: column;
@@ -37,7 +53,7 @@ header {
     top: 60px;
     left: 0;
     width: 100%;
-    background-color: #cfe7e5;
+    background-color: #024950;
 }
 
 .nav ul {
@@ -54,7 +70,7 @@ header {
 }
 
 .nav ul li a {
-    color: #213638;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -64,10 +80,45 @@ header {
 
 footer {
     display: flex;
+    background-color: #024950;
+    color: #fff;
+    align-items: center;
+    height: 2rem;
     width: 100%;
     justify-content: center;
-    top: 96%;
-    position: absolute;
+    top: 95.2%;
+    position: sticky;
+}
+
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .menu-toggle:checked + .menu-icon + .nav {
+        display: flex;
+    }
+}
+
+@media (min-width: 769px) {
+    .menu-icon {
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+        position: static;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .nav ul {
+        flex-direction: row;
+    }
+
+    .nav ul li {
+        margin: 0 10px;
+    }
 }
 
 @media (max-width: 768px) {
