@@ -6,10 +6,20 @@
         <title>City Traveller</title>
         <link rel="stylesheet" href="../index.css" />
         <link rel="stylesheet" href="home.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Great+Vibes&display=swap"
+            rel="stylesheet"
+        />
     </head>
     <body>
         <header>
-            <label>City Traveller</label>
+            <img
+                src="../images/mylogo/newmylogo.png"
+                class="cityTraveller"
+                alt="mobile logo"
+            />
             <input type="checkbox" id="menu-toggle" class="menu-toggle" />
             <label for="menu-toggle" class="menu-icon">☰</label>
             <nav class="nav">
@@ -24,24 +34,100 @@
             </nav>
         </header>
         <div class="herosection">
-            <img src="../images/mobileHero.jpg" alt="hero mobile image" />
-            <div class="heroLocation">
-                <label>From</label>
-                <select>
-                    <option>Bardiya</option>
-                    <option>Bajang</option>
-                    <option>Kathmandu</option>
-                </select>
+            <img
+                src="../images/mobileHero.jpg"
+                class="mobileBackground"
+                alt="hero mobile image"
+            />
+            <img
+                src="../images/backgroundDesktop.jpg"
+                class="desktopBackground"
+                alt="hero desktop image"
+            />
+            <div class="heroMobileContent">
+                <p class="descoverTitle">Descover City</p>
+                <p>Inside Out</p>
             </div>
-            <div class="heroLocation">
-                <label>To</label>
-                <select>
-                    <option>Bardiya</option>
-                    <option>Bajang</option>
-                    <option>Kathmandu</option>
-                </select>
+            <div class="contactButton">
+                <a href="../contactPage/contact.html" class="contactlink">
+                    Contact Us
+                </a>
+            </div>
+            <div class="heroDesktopContet"></div>
+        </div>
+        <div class="seasonContent">
+            <p class="seasonHeading">Season Highlights</p>
+            <div class="seasonHighlight">
+                <div class="firstHighlight">
+                    <img
+                        src="../images/seasonalHighlight/annapurna.jpg"
+                        alt="annapurna mountain looks"
+                    />
+                    <p>Annappurna Mountain</p>
+                </div>
+                <div class="firstHighlight">
+                    <img
+                        src="../images/seasonalHighlight/everest.jpg"
+                        alt="Mt.Everest"
+                    />
+                    <p>Mt. Everest</p>
+                </div>
+                <div class="firstHighlight">
+                    <img
+                        src="../images/seasonalHighlight/kathmandu.jpg"
+                        alt="kathmandu city"
+                    />
+                    <p>Kathmandu</p>
+                </div>
             </div>
         </div>
-        <footer>&copy; 2024 city Traveller</footer>
+        <div class="packageContent">
+            <p class="packageHeading">Popular Packages</p>
+            <div class="seasonHighlight">
+                <div class="firstHighlight">
+                    <img
+                        src="../images/seasonalHighlight/mustang.jpg"
+                        alt="mustand trek looks"
+                    />
+                    <p>Mustang Tour</p>
+                </div>
+                <div class="firstHighlight">
+                    <img
+                        src="../images/seasonalHighlight/gosaikunda.jpg"
+                        alt="Gosaikunda"
+                    />
+                    <p>Gosaikunda Trek</p>
+                </div>
+                <div class="firstHighlight">
+                    <img
+                        src="../images/seasonalHighlight/pokhara.jpg"
+                        alt="Pokhara city"
+                    />
+                    <p>Phokhara Tour</p>
+                </div>
+                <div class="firstHighlight secondHighlight">
+                    <img
+                        src="../images/seasonalHighlight/mustang.jpg"
+                        alt="mustand trek looks"
+                    />
+                    <p>Mustang Tour</p>
+                </div>
+                <div class="firstHighlight secondHighlight">
+                    <img
+                        src="../images/seasonalHighlight/gosaikunda.jpg"
+                        alt="Gosaikunda"
+                    />
+                    <p>Gosaikunda Trek</p>
+                </div>
+                <div class="firstHighlight secondHighlight">
+                    <img
+                        src="../images/seasonalHighlight/pokhara.jpg"
+                        alt="Pokhara city"
+                    />
+                    <p>Phokhara Tour</p>
+                </div>
+            </div>
+        </div>
+        <footer>&copy; 2024 City Traveller</footer>
     </body>
 </html>
