@@ -5,17 +5,17 @@ body {
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-    background-color: #afdde5;
+    background-color: #fff;
 }
 
 section {
-    background-color: #afdde5;
+    /* background-color: #afdde5; */
 }
 
 header {
-    background-color: #003135;
+    background-color: #024950;
     color: white;
-    padding: 10px 20px;
+    padding: 15px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,7 +38,7 @@ header {
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: #003135da;
+    background-color: #024950;
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.3s ease-out;
@@ -62,7 +62,7 @@ header {
     color: white;
     text-decoration: none;
     display: block;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 .menu-toggle:checked + .menu-icon + .nav {
@@ -72,7 +72,7 @@ header {
 /* hero section */
 .hero {
     position: relative;
-    height: 100vh;
+    height: 91vh;
     display: flex;
     justify-content: center;
     align-items: flex-end;
