@@ -17,6 +17,7 @@ body {
 }
 
 .contactSection {
+    font-family: "Poppins";
     padding: 1rem;
 }
 
@@ -70,6 +71,14 @@ body {
     margin-top: 1rem;
     display: flex;
     justify-content: center;
+}
+
+#text-id {
+    line-height: 20px;
+    padding: 5px;
+    resize: none;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 @media (min-width: 769px) {
