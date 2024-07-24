@@ -282,7 +282,7 @@ footer {
     font-weight: 400;
     text-transform: capitalize;
     margin: 0;
-    background: linear-gradient(to bottom, rgb(0 0 0 / 1%) 50%, rgb(14 13 13 / 35%) 36%)
+    /* background: linear-gradient(to bottom, rgb(0 0 0 / 1%) 50%, rgb(14 13 13 / 35%) 36%) */
 }
 
 .card-details p {
