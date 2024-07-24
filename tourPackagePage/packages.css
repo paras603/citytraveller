@@ -282,6 +282,7 @@ footer {
     font-weight: 400;
     text-transform: capitalize;
     margin: 0;
+    background: linear-gradient(to bottom, rgb(0 0 0 / 1%) 50%, rgb(14 13 13 / 35%) 36%)
 }
 
 .card-details p {
@@ -334,12 +335,9 @@ footer {
 }
 
 .card .btn:hover {
-    background-color: #e68a00;
-}
-
-.card .btn:focus {
-    outline: 2px solid #ff9900;
-    outline-offset: 2px;
+    background-color: #024950;
+    color: #fff;
+    border: 1px solid #fff;
 }
 
 /* section divider */
@@ -383,15 +381,13 @@ footer {
 .more-package-card {
     position: relative; /* Make sure card is the positioning context */
     width: 340px;
-    height: 400px; /* Adjust the height as needed */
-    /* border-radius: 10px; */
+    height: 400px;
     overflow: hidden;
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.034);
 }
 
 .more-package-card-image {
     width: 100%;
-    /* height: 50%; */
     object-fit: cover;
     border-radius: 10px;
 }
@@ -399,12 +395,11 @@ footer {
 .more-package-card-details {
     position: absolute; /* Positioning over the image */
     bottom: 0;
-    left: 0;
+    left: 10px;
     right: 0;
     text-align: left;
     color: rgb(0, 0, 0);
     padding: 20px 20px 20px 0px;
-    /* background: rgba(0, 0, 0, 0.6); Semi-transparent background */
 }
 
 .more-package-card-details h3 {
@@ -446,7 +441,7 @@ footer {
     padding: 10px 20px;
     background-color: #fff;
     color: #000;
-    border: 1px solid #e68a00;
+    border: 1px solid #000;
     border-radius: 5px;
     text-decoration: none;
     font-size: 1em;
@@ -456,12 +451,9 @@ footer {
 }
 
 .more-package-card .btn:hover {
-    background-color: #e68a00;
-}
-
-.more-package-card .btn:focus {
-    outline: 2px solid #ff9900;
-    outline-offset: 2px;
+    background-color: #024950;
+    color: #fff;
+    border: 1px solid #fff;
 }
 
 
