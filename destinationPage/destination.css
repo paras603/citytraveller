@@ -188,8 +188,9 @@ header {
 }
 
 .card p {
-    padding: 0 10px 10px;
+    padding: 0 20px 10px;
     font-size: 14px;
+    line-height: 20px;
     color: #666;
     text-align: justify;
 }
@@ -330,9 +331,10 @@ footer {
 }
 
 .step p {
+    line-height: 20px;
     font-size: 16px;
     color: #666;
-    text-align: left; /* Align paragraph text to the left */
+    text-align: justify;
 }
 
 /* Responsive styles for tablet and desktop */
