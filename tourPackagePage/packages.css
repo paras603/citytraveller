@@ -1,6 +1,6 @@
 /* Mobile-first styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Poppins";
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -67,6 +67,11 @@ header {
 
 .menu-toggle:checked + .menu-icon + .nav {
     max-height: 300px; /* Adjust this value as needed to fit your menu items */
+}
+
+/*  title description */
+.title-desc{
+    /* font-family: "Edu AU VIC WA NT Hand"; */
 }
 
 /* hero section */
