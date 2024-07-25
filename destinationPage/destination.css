@@ -1,6 +1,6 @@
 /* Mobile-first styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Poppins";
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -152,6 +152,7 @@ header {
     text-align: center;
     margin-bottom: 20px;
     font-size: 24px;
+    font-weight: 400;
 }
 
 .cards {
@@ -183,13 +184,16 @@ header {
 }
 
 .card h3 {
-    font-size: 20px;
+    color: #8e8e8e;
+    font-weight: 400;
+    font-size: 18px;
     margin: 10px 0;
 }
 
 .card p {
-    padding: 0 10px 10px;
+    padding: 0 20px 10px;
     font-size: 14px;
+    line-height: 20px;
     color: #666;
     text-align: justify;
 }
@@ -199,7 +203,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
+    position: relative;
     width: 100%;
     bottom: 0;
 }
@@ -299,6 +303,7 @@ footer {
     font-size: 28px;
     margin-bottom: 20px;
     text-align: center;
+    font-weight: 400;
 }
 
 .steps {
@@ -324,15 +329,18 @@ footer {
 }
 
 .step h3 {
-    font-size: 20px;
     margin-bottom: 10px;
     text-align: left; 
+    color: #8e8e8e;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .step p {
+    line-height: 20px;
     font-size: 16px;
     color: #666;
-    text-align: left; /* Align paragraph text to the left */
+    text-align: justify;
 }
 
 /* Responsive styles for tablet and desktop */
@@ -359,6 +367,7 @@ footer {
 .best-of-nepal h2 {
     font-size: 28px;
     margin-bottom: 10px;
+    font-weight: 400;
 }
 
 .subtitle {
