@@ -47,3 +47,5 @@ These strategies help create a more inclusive and user-friendly website.
 3. Header Tags: Used H1, H2, and H3 tags properly for content structure.
 4. Semantic HTML: Utilized HTML5 elements for better content understanding by search engines.
 
+# Images reference
+all the images used in the website are taken from https://www.pexels.com, a platform providing high-quality, copyright-free images.
